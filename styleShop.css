@@ -1,0 +1,60 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.fas {
+  margin: 1em 1em 1em 1em;
+}
+
+.routeHTML {
+  margin: 2em 0 2em 0;
+  padding: 0;
+}
+
+#card-header {
+  background: url("whitenoise.png"), linear-gradient(45deg, #8e8e8e, #dedede);
+  height: 30px;
+  font-size: 20px;
+}
+
+
+.items {
+  border: none;
+  border-radius: 0;
+  background: #f7f7f7;
+  border-bottom: 1px solid #8e8e8e;
+  padding-top: 1em;
+  margin: 0;
+  padding: 1em 0 1em 0;
+}
+
+.card-img-top {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.form-control {
+  height: 30px;
+  margin-left: 4em;
+}
+
+.btn {
+  height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+i {
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  font-size: 1em;
+}
+
+.headings {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #8e8e8e;
+  border-top: 1px solid #8e8e8e;
+  padding: 0;
+}

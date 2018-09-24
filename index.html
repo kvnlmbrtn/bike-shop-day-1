@@ -2,20 +2,208 @@
 
 <html>
 	<head>
-		<title>MyMails</title>
+		<title>BikeShop</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-		<link rel="shortcut icon" href="logo-la-capsule.png">
+		<link rel="shortcut icon" href="bicycle.png">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="style.css" />
 	</head>
+
+
 
 	<body>
 
+		<header id="welcomeView">
+			<h1 id="companyName">BIKE SHOP</h1>
+			<p id="companyDescription">Plateforme de vente de vélos</p>
+			<p>En savoir plus</p>
+			<a href="shop.html" target="_blank" id="learnMoreLink"><i class="fas fa-arrow-circle-down"></i></a>
+		</header>
 
 
-    <script src="main.js"></script>
+		<div id="eShop" class="container-fluid">
+
+			<header id="headerShop">
+				<h3>SHOP</h3>
+			</header>
+
+				<div class="row" id="shop">
+
+					<div class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
+							<img class="card-img-top" src="images/bike-1.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Model <span class="models">BIKO45</span></h5>
+								<p class="card-text"><span class="prices">679</span> €</p>
+								<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModalCenter">Buy
+								</button>
+							</div>
+					</div>
+
+					<div class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
+							<img class="card-img-top" src="images/bike-2.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Model <span class="models">ZOOK7</span></h5>
+								<p class="card-text"><span class="prices">799</span> €</p>
+								<a href="#" class="btn btn-outline-primary">Buy</a>
+							</div>
+					</div>
+
+					<div class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
+							<img class="card-img-top" src="images/bike-3.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Model <span class="models">LIKO89</span></h5>
+								<p class="card-text"><span class="prices">839</span> €</p>
+								<a href="#" class="btn btn-outline-primary">Buy</a>
+							</div>
+					</div>
+
+					<div class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
+							<img class="card-img-top" src="images/bike-4.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Model <span class="models">GEWO</span></h5>
+								<p class="card-text"><span class="prices">1206</span> €</p>
+								<a href="#" class="btn btn-outline-primary">Buy</a>
+							</div>
+					</div>
+
+					<div class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
+							<img class="card-img-top" src="images/bike-5.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Model <span class="models">TITANS</span></h5>
+								<p class="card-text"><span class="prices">989</span> €</p>
+								<a href="#" class="btn btn-outline-primary">Buy</a>
+							</div>
+					</div>
+
+					<div class="card col-12 col-sm-6 col-md-4" style="width: 18rem;">
+							<img class="card-img-top" src="images/bike-6.jpg" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Model <span class="models">AMIG39</span></h5>
+								<p class="card-text"><span class="prices">599</span> €</p>
+								<a href="#" class="btn btn-outline-primary">Buy</a>
+							</div>
+					</div>
+
+				</div>
+
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalCenterTitle">Confirmation</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+	        	Are you sure you want to add this bike to your basket ?</br>
+						Anyway, you will be able to modify your basket afterwards &#9924;
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-outline-primary">Add to basket</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<div id="bloc2">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt assumenda explicabo minima rerum nobis deserunt quaerat voluptates ad odio! Accusamus facere eaque magni numquam, ad aspernatur exercitationem, tenetur inventore iure?</p>
+		</div>
+
+
+		<div id="pageWrapper" class="container-fluid">
+
+				<div class="row">
+
+						<div class="avantages col-12 col-md-4 col-lg-3" id="advantages1">
+							<i class="fas fa-car"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt assumenda explicabo minima.</p>
+						</div>
+
+						<div class="avantages col-12 col-md-4 col-lg-3" id="advantages2">
+							<i class="fas fa-piggy-bank"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt assumenda explicabo minima.</p>
+						</div>
+
+						<div class="avantages col-12 col-md-4 col-lg-3" id="advantages3">
+							<i class="fas fa-comments"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt assumenda explicabo minima.</p>
+						</div>
+
+						<div class="avantages col-12 col-md-4 col-lg-3" id="advantages4">
+							<i class="fas fa-umbrella"></i>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt assumenda explicabo minima.</p>
+						</div>
+
+				</div>
+
+		</div>
+
+		<div id="bloc3">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt assumenda explicabo minima rerum nobis deserunt quaerat voluptates ad odio! Accusamus facere eaque magni numquam, ad aspernatur exercitationem, tenetur inventore iure?</p>
+		</div>
+
+
+		<div class="container-fluid">
+
+				<div class="row">
+
+						<div id="bikesList" class="col-12 col-md-6 col-lg-3">
+							<h3>Types de vélos</h3>
+							<ul>
+									<li>Fixie</li>
+									<li>VTT / VTC</li>
+									<li>Vélo de route</li>
+									<li>BMX</li>
+									<li>Montagne</li>
+							</ul>
+						</div>
+
+						<div id="citiesList" class="col-12 col-md-6 col-lg-3">
+							<h3>Types de vélos</h3>
+							<ul>
+									<li>Paris</li>
+									<li>Lyon</li>
+									<li>Marseille</li>
+									<li>Strasbourg</li>
+									<li>Bordeaux</li>
+							</ul>
+						</div>
+
+						<div id="legalMentions" class="col-12 col-md-6 col-lg-3">
+							<h3>Mentions légales</h3>
+							<ul>
+									<li>Qui sommes nous ?</li>
+									<li>Nous contacter</li>
+									<li>CGV</li>
+									<li>Espace photos</li>
+									<li>Blog</li>
+							</ul>
+						</div>
+
+						<div id="socialMedia" class="col-12 col-md-6 col-lg-3">
+							<h3>Réseaux sociaux</h3>
+							<ul class="iconesRéseauxSociaux">
+									<li><a href="https://twitter.com/entoureo" target="_blank" class="fab fa-twitter"></a></li>
+									<li><a href="https://www.facebook.com/Entoureo-558920777856188/" target="_blank" class="fab fa-facebook-f"></a></li>
+									<li><a href="#" target="_blank" class="fab fa-linkedin-in"></a></li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
 
 	</body>
 </html>

@@ -5,6 +5,169 @@
 
 body {
   font-family: 'Montserrat';
-  margin: 3em auto 3em auto;
-  background-color: #f4f8ff;
+  margin: 0em auto 3em auto;
+  color: white;
+}
+
+#welcomeView {
+  position: relative;
+  height: 100vh;
+  color: white;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  background-image: url('bike-6.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    #welcomeView #companyName {
+      display: block;
+      position: relative;
+      font-size: 60px;
+      margin: 2em auto 1em auto;
+    }
+
+    #welcomeView #companyDescription {
+      display: block;
+      position: relative;
+      font-size: 25px;
+      margin: 2em auto 5em auto;
+    }
+
+    #welcomeView p {
+      font-size: 20px;
+    }
+
+    #welcomeView #learnMoreLink {
+      text-decoration: none;
+      margin: 0 auto 3em auto;
+      font-size: 25px;
+      color: white;
+    }
+
+
+.container-fluid {
+  color: black;
+  display: block;
+  background: white;
+  width: 100%;
+}
+
+
+.avantages {
+  text-align: center;
+  color: white;
+}
+
+.avantages i {
+  font-size: 30px;
+  color: white;
+  margin: 1em auto 1em auto;
+}
+
+
+#bloc2 {
+  position: relative;
+  height: 400px;
+  color: black;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+    #bloc2:after {
+      content: '';
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 100%;
+
+      background-image: url('bike-2.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      opacity: 0.4;
+    }
+
+#bloc3 {
+  position: relative;
+  height: 400px;
+  color: black;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+    #bloc3:after {
+      content: '';
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 100%;
+
+      background-image: url('bike-3.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      opacity: 0.4;
+    }
+
+        #bloc2 p,
+        #bloc3 p {
+          position: absolute;
+          top: 30%;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          color: white;
+          font-size: 2.0em;
+          text-align: center;
+          text-decoration: none;
+          z-index: 3;
+        }
+
+
+
+.card-img-top {
+  display: block;
+  margin: 2em auto 1em auto;
+}
+
+.card {
+  padding: 1em auto 1em auto;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.container-fluid {
+  padding: 4em 3em 4em 3em;
+  background-image: url("bike-2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headerShop {
+  color: white;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+
+.modal-body,
+.modal-title {
+  color: #8e8e8e;
 }
