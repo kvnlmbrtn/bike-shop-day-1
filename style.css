@@ -1,0 +1,10 @@
+/*------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+/* Mise en forme de l'arrière plan du site en grisé */
+
+body {
+  font-family: 'Montserrat';
+  margin: 3em auto 3em auto;
+  background-color: #f4f8ff;
+}
